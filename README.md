@@ -3,8 +3,12 @@ tldr_hiera
 
 This is a fully-featured Hiera example that can be executed with `puppet apply`.
 The purpose of this project is to teach basic Hiera concepts - and has an
-accompanying article on http://vancluevertech.com/, which will be updated after
-the initial commit and the article has been written.
+accompanying article:
+
+http://vancluevertech.com/2015/03/09/tldr-tutorials-hiera/
+
+**NOTE: DO NOT USE THE PRIVATE KEY IN THIS REPO FOR ANYTHING ELSE OTHER THAN
+DEMONSTRATION**
 
 What is Hiera?
 ---------------

@@ -1,0 +1,12 @@
+# Second specific dataset for tldr_hiera
+# See the project README.md for more details
+---
+# String
+tldr_hiera::tldr_string: string_value_dataset2
+# Array
+tldr_hiera::tldr_array:
+ - element1_dataset2
+ - element2_dataset2
+# Hash
+tldr_hiera::tldr_hash:
+    tldr_key: tldr_value_dataset2

@@ -1,0 +1,18 @@
+# Puppet example Hiera config file
+# Please see the README.md for more details.
+---
+:backends:
+  - eyaml
+  - yaml
+:yaml:
+  :datadir: hieradata/
+:eyaml:
+  :datadir: hieradata/
+  :pkcs7_private_key: hieradata/keys/private_key.pkcs7.pem
+  :pkcs7_public_key: hieradata/keys/public_key.pkcs7.pem
+# We use a custom fact for hiearchy, just for easy demonstration.
+# We are only including a common.eyaml for simplicitly's sake as well so there
+# are no node-specific encrypted Hiera values.
+:hierarchy:
+  - "%{::tldrnode}"
+  - common

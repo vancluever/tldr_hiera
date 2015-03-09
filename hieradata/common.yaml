@@ -1,0 +1,12 @@
+# Common dataset for tldr_hiera
+# See the project README.md for more details
+---
+# String
+tldr_hiera::tldr_string: string_value_common
+# Array
+tldr_hiera::tldr_array:
+ - element1_common
+ - element2_common
+# Hash
+tldr_hiera::tldr_hash:
+    tldr_key: tldr_value_common
